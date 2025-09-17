@@ -51,6 +51,14 @@ function submitRecipe(validators) {
         
         // Clear form after successful submission
         form.reset();
+    } else {
+        const errorDiv = document.createElement('div');
+        errorDiv.className = 'alert alert-danger mt-3';
+        errorDiv.textContent = 'Form has errors!';
+        form.appendChild(errorDiv);
+        
+        // Clear form after successful submission
+        form.reset();
     }
 
     return { status: allValid, message: allValid ? 'Form submitted successfully' : 'Form has errors' };
