@@ -1,26 +1,32 @@
 
 // Validation functions that return { status: boolean, message: string }
 function validateRecipeName(value) {
+    console.log(value);
     return { status: true, message: '' };
 }
 
 function validateIngredients(value) {
+    console.log(value);
     return { status: true, message: '' };
 }
 
 function validateCookingTime(value) {
+    console.log(value);
     return { status: true, message: '' };
 }
 
 function validateDifficulty(value) {
+    console.log(value);
     return { status: true, message: '' };
 }
 
 function validateDietary(value) {
+    console.log(value);
     return { status: true, message: '' };
 }
 
 function validateServings(value) {
+    console.log(value);
     return { status: true, message: '' };
 }
 
